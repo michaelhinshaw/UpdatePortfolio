@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
+import Profile from "../components/Profile";
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
 
       <main>
         <Navbar />
-        <h1>About</h1>
+        <Profile />
       </main>
     </div>
   );
